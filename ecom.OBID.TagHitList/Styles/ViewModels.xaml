@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:ecom.TagHitList"
+                    xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" 
+                    xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+                    xmlns:vm="clr-namespace:ecom.TagHitList.Framework.ViewModels">
+    <ResourceDictionary.MergedDictionaries>
+        <!-- Order is important -->
+        <ResourceDictionary Source="Colors.xaml"/>
+        <ResourceDictionary Source="Fonts.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    <vm:TitleBarViewModel x:Key="TitleBarViewModel"/>
+</ResourceDictionary>
